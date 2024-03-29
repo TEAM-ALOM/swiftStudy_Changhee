@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8B6C3C2BB6A29000E4D680 /* TimetreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C3B2BB6A29000E4D680 /* TimetreeApp.swift */; };
+		DE8B6C3E2BB6A29000E4D680 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C3D2BB6A29000E4D680 /* ContentView.swift */; };
+		DE8B6C402BB6A29200E4D680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B6C3F2BB6A29200E4D680 /* Assets.xcassets */; };
+		DE8B6C432BB6A29200E4D680 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8B6C422BB6A29200E4D680 /* Preview Assets.xcassets */; };
+		DE8B6C4D2BB6A29200E4D680 /* TimetreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C4C2BB6A29200E4D680 /* TimetreeTests.swift */; };
+		DE8B6C572BB6A29200E4D680 /* TimetreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C562BB6A29200E4D680 /* TimetreeUITests.swift */; };
+		DE8B6C592BB6A29200E4D680 /* TimetreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C582BB6A29200E4D680 /* TimetreeUITestsLaunchTests.swift */; };
+		DE8B6C662BB6A2E200E4D680 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C652BB6A2E200E4D680 /* Day.swift */; };
+		DE8B6C682BB6A3AB00E4D680 /* DaySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8B6C672BB6A3AB00E4D680 /* DaySetting.swift */; };
+		DEF8F0262BB6B9B30091D0D2 /* myCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF8F0252BB6B9B30091D0D2 /* myCalender.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8B6C492BB6A29200E4D680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8B6C302BB6A29000E4D680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8B6C372BB6A29000E4D680;
+			remoteInfo = Timetree;
+		};
+		DE8B6C532BB6A29200E4D680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8B6C302BB6A29000E4D680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8B6C372BB6A29000E4D680;
+			remoteInfo = Timetree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE8B6C382BB6A29000E4D680 /* Timetree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timetree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B6C3B2BB6A29000E4D680 /* TimetreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetreeApp.swift; sourceTree = "<group>"; };
+		DE8B6C3D2BB6A29000E4D680 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE8B6C3F2BB6A29200E4D680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8B6C422BB6A29200E4D680 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE8B6C482BB6A29200E4D680 /* TimetreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimetreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B6C4C2BB6A29200E4D680 /* TimetreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetreeTests.swift; sourceTree = "<group>"; };
+		DE8B6C522BB6A29200E4D680 /* TimetreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimetreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8B6C562BB6A29200E4D680 /* TimetreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetreeUITests.swift; sourceTree = "<group>"; };
+		DE8B6C582BB6A29200E4D680 /* TimetreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE8B6C652BB6A2E200E4D680 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		DE8B6C672BB6A3AB00E4D680 /* DaySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySetting.swift; sourceTree = "<group>"; };
+		DEF8F0252BB6B9B30091D0D2 /* myCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCalender.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8B6C352BB6A29000E4D680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B6C452BB6A29200E4D680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B6C4F2BB6A29200E4D680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8B6C2F2BB6A29000E4D680 = {
+			isa = PBXGroup;
+			children = (
+				DE8B6C3A2BB6A29000E4D680 /* Timetree */,
+				DE8B6C4B2BB6A29200E4D680 /* TimetreeTests */,
+				DE8B6C552BB6A29200E4D680 /* TimetreeUITests */,
+				DE8B6C392BB6A29000E4D680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8B6C392BB6A29000E4D680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B6C382BB6A29000E4D680 /* Timetree.app */,
+				DE8B6C482BB6A29200E4D680 /* TimetreeTests.xctest */,
+				DE8B6C522BB6A29200E4D680 /* TimetreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8B6C3A2BB6A29000E4D680 /* Timetree */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B6C3B2BB6A29000E4D680 /* TimetreeApp.swift */,
+				DE8B6C3D2BB6A29000E4D680 /* ContentView.swift */,
+				DEF8F0252BB6B9B30091D0D2 /* myCalender.swift */,
+				DE8B6C652BB6A2E200E4D680 /* Day.swift */,
+				DE8B6C672BB6A3AB00E4D680 /* DaySetting.swift */,
+				DE8B6C3F2BB6A29200E4D680 /* Assets.xcassets */,
+				DE8B6C412BB6A29200E4D680 /* Preview Content */,
+			);
+			path = Timetree;
+			sourceTree = "<group>";
+		};
+		DE8B6C412BB6A29200E4D680 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B6C422BB6A29200E4D680 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE8B6C4B2BB6A29200E4D680 /* TimetreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B6C4C2BB6A29200E4D680 /* TimetreeTests.swift */,
+			);
+			path = TimetreeTests;
+			sourceTree = "<group>";
+		};
+		DE8B6C552BB6A29200E4D680 /* TimetreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B6C562BB6A29200E4D680 /* TimetreeUITests.swift */,
+				DE8B6C582BB6A29200E4D680 /* TimetreeUITestsLaunchTests.swift */,
+			);
+			path = TimetreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8B6C372BB6A29000E4D680 /* Timetree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B6C5C2BB6A29200E4D680 /* Build configuration list for PBXNativeTarget "Timetree" */;
+			buildPhases = (
+				DE8B6C342BB6A29000E4D680 /* Sources */,
+				DE8B6C352BB6A29000E4D680 /* Frameworks */,
+				DE8B6C362BB6A29000E4D680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timetree;
+			productName = Timetree;
+			productReference = DE8B6C382BB6A29000E4D680 /* Timetree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8B6C472BB6A29200E4D680 /* TimetreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B6C5F2BB6A29200E4D680 /* Build configuration list for PBXNativeTarget "TimetreeTests" */;
+			buildPhases = (
+				DE8B6C442BB6A29200E4D680 /* Sources */,
+				DE8B6C452BB6A29200E4D680 /* Frameworks */,
+				DE8B6C462BB6A29200E4D680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8B6C4A2BB6A29200E4D680 /* PBXTargetDependency */,
+			);
+			name = TimetreeTests;
+			productName = TimetreeTests;
+			productReference = DE8B6C482BB6A29200E4D680 /* TimetreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8B6C512BB6A29200E4D680 /* TimetreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8B6C622BB6A29200E4D680 /* Build configuration list for PBXNativeTarget "TimetreeUITests" */;
+			buildPhases = (
+				DE8B6C4E2BB6A29200E4D680 /* Sources */,
+				DE8B6C4F2BB6A29200E4D680 /* Frameworks */,
+				DE8B6C502BB6A29200E4D680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8B6C542BB6A29200E4D680 /* PBXTargetDependency */,
+			);
+			name = TimetreeUITests;
+			productName = TimetreeUITests;
+			productReference = DE8B6C522BB6A29200E4D680 /* TimetreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8B6C302BB6A29000E4D680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DE8B6C372BB6A29000E4D680 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DE8B6C472BB6A29200E4D680 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DE8B6C372BB6A29000E4D680;
+					};
+					DE8B6C512BB6A29200E4D680 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DE8B6C372BB6A29000E4D680;
+					};
+				};
+			};
+			buildConfigurationList = DE8B6C332BB6A29000E4D680 /* Build configuration list for PBXProject "Timetree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8B6C2F2BB6A29000E4D680;
+			productRefGroup = DE8B6C392BB6A29000E4D680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8B6C372BB6A29000E4D680 /* Timetree */,
+				DE8B6C472BB6A29200E4D680 /* TimetreeTests */,
+				DE8B6C512BB6A29200E4D680 /* TimetreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8B6C362BB6A29000E4D680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B6C432BB6A29200E4D680 /* Preview Assets.xcassets in Resources */,
+				DE8B6C402BB6A29200E4D680 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B6C462BB6A29200E4D680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B6C502BB6A29200E4D680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8B6C342BB6A29000E4D680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B6C3E2BB6A29000E4D680 /* ContentView.swift in Sources */,
+				DEF8F0262BB6B9B30091D0D2 /* myCalender.swift in Sources */,
+				DE8B6C3C2BB6A29000E4D680 /* TimetreeApp.swift in Sources */,
+				DE8B6C662BB6A2E200E4D680 /* Day.swift in Sources */,
+				DE8B6C682BB6A3AB00E4D680 /* DaySetting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B6C442BB6A29200E4D680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B6C4D2BB6A29200E4D680 /* TimetreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8B6C4E2BB6A29200E4D680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8B6C592BB6A29200E4D680 /* TimetreeUITestsLaunchTests.swift in Sources */,
+				DE8B6C572BB6A29200E4D680 /* TimetreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8B6C4A2BB6A29200E4D680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8B6C372BB6A29000E4D680 /* Timetree */;
+			targetProxy = DE8B6C492BB6A29200E4D680 /* PBXContainerItemProxy */;
+		};
+		DE8B6C542BB6A29200E4D680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8B6C372BB6A29000E4D680 /* Timetree */;
+			targetProxy = DE8B6C532BB6A29200E4D680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DE8B6C5A2BB6A29200E4D680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE8B6C5B2BB6A29200E4D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8B6C5D2BB6A29200E4D680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timetree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HEE.Timetree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE8B6C5E2BB6A29200E4D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timetree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HEE.Timetree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE8B6C602BB6A29200E4D680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HEE.TimetreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timetree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timetree";
+			};
+			name = Debug;
+		};
+		DE8B6C612BB6A29200E4D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HEE.TimetreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timetree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timetree";
+			};
+			name = Release;
+		};
+		DE8B6C632BB6A29200E4D680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HEE.TimetreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timetree;
+			};
+			name = Debug;
+		};
+		DE8B6C642BB6A29200E4D680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HEE.TimetreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Timetree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8B6C332BB6A29000E4D680 /* Build configuration list for PBXProject "Timetree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B6C5A2BB6A29200E4D680 /* Debug */,
+				DE8B6C5B2BB6A29200E4D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B6C5C2BB6A29200E4D680 /* Build configuration list for PBXNativeTarget "Timetree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B6C5D2BB6A29200E4D680 /* Debug */,
+				DE8B6C5E2BB6A29200E4D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B6C5F2BB6A29200E4D680 /* Build configuration list for PBXNativeTarget "TimetreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B6C602BB6A29200E4D680 /* Debug */,
+				DE8B6C612BB6A29200E4D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8B6C622BB6A29200E4D680 /* Build configuration list for PBXNativeTarget "TimetreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8B6C632BB6A29200E4D680 /* Debug */,
+				DE8B6C642BB6A29200E4D680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8B6C302BB6A29000E4D680 /* Project object */;
+}
