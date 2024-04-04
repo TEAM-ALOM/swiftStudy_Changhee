@@ -71,11 +71,11 @@ struct myCalender: View {
                 }
             }
             
-        
+            Spacer()
             
         }
         .padding()
-        Spacer()
+        
     }
 
    
